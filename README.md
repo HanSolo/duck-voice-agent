@@ -2,7 +2,7 @@
 
 ## Run
 1. Client, once: `cd jakarta-mcp-client && mvn -q -DskipTests install`
-2. Duck clinic running on Payara Micro. Endpoint in the zip you sent: `http://localhost:8080/duck-clinic/mcp` (`@ApplicationPath("")` is still there).
+2. Duck clinic running on Payara Micro. Endpoint in the zip you sent: `http://localhost:8080/duck-clinic/api/mcp`.
 3. Here:
 ```
 mvn -q package
